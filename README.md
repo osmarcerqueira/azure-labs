@@ -1,5 +1,9 @@
 <img src="assets/banner.png" width="100%">
 
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure&logoColor=white)
+![Certification](https://img.shields.io/badge/AZ--900-In%20Progress-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 AZ-900 • Em andamento
 
