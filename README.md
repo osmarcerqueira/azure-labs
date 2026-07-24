@@ -1,4 +1,4 @@
-<img width="1983" height="793" alt="Azure-Labs" src="https://github.com/user-attachments/assets/9f60110e-e396-4bea-b829-b2f11867d052" />
+<img src="assets/banner.png" width="100%">
 
 
 AZ-900 • Em andamento
