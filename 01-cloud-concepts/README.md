@@ -1,45 +1,112 @@
-# Cloud Concepts
+# ☁️ Cloud Concepts
 
-## O que aprendi
-
-- Computação em Nuvem
-- Nuvem Pública
-- Nuvem Privada
-- Nuvem Híbrida
-- IaaS
-- PaaS
-- SaaS
+Este módulo apresenta os conceitos fundamentais da Computação em Nuvem e os principais modelos de implantação e serviços utilizados pelo Microsoft Azure.
 
 ---
 
-## Benefícios
+# Objetivos
 
-- Alta disponibilidade
-- Escalabilidade
-- Elasticidade
-- Confiabilidade
-- Segurança
+Ao concluir este módulo fui capaz de compreender:
 
----
-
-## Comparação
-
-| Modelo | Responsabilidade |
-|---------|------------------|
-| IaaS | Cliente gerencia SO e aplicações |
-| PaaS | Cliente gerencia aplicações |
-| SaaS | Microsoft gerencia tudo |
+- O que é Computação em Nuvem
+- Benefícios da Nuvem
+- Modelos de Implantação
+- Modelos de Serviço
+- Responsabilidade Compartilhada
 
 ---
 
-## Exemplo
+# O que é Computação em Nuvem?
 
-Empresa precisa hospedar um site.
+Computação em nuvem consiste no fornecimento de recursos de TI sob demanda por meio da internet, permitindo escalabilidade, alta disponibilidade e pagamento conforme o uso.
 
-Pode utilizar:
+---
 
-Azure App Service (PaaS)
+# Benefícios
 
-ou
+✔ Alta Disponibilidade
 
-Máquina Virtual Ubuntu (IaaS)
+✔ Escalabilidade
+
+✔ Elasticidade
+
+✔ Agilidade
+
+✔ Confiabilidade
+
+✔ Segurança
+
+✔ Recuperação de Desastres
+
+---
+
+# Modelos de Implantação
+
+## Nuvem Pública
+
+Infraestrutura compartilhada administrada pelo provedor.
+
+Exemplo:
+
+Microsoft Azure
+
+---
+
+## Nuvem Privada
+
+Infraestrutura dedicada exclusivamente para uma organização.
+
+---
+
+## Nuvem Híbrida
+
+Integra recursos locais com serviços em nuvem.
+
+---
+
+# Modelos de Serviço
+
+## IaaS
+
+O cliente administra:
+
+- Sistema Operacional
+- Aplicações
+- Dados
+
+O Azure administra:
+
+- Hardware
+- Rede Física
+- Datacenter
+
+---
+
+## PaaS
+
+O Azure administra:
+
+- Sistema Operacional
+- Middleware
+- Infraestrutura
+
+O cliente administra:
+
+- Aplicações
+- Dados
+
+---
+
+## SaaS
+
+Toda infraestrutura é administrada pelo provedor.
+
+Exemplo:
+
+Microsoft 365
+
+---
+
+# Resumo
+
+A Computação em Nuvem permite utilizar recursos computacionais sob demanda, reduzindo custos e aumentando a disponibilidade dos serviços.
