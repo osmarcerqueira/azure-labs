@@ -19,9 +19,9 @@ diagramas e laboratórios práticos.
 
 Progresso
 
-████████░░░░░░░░░░░░  28%
+████████░░░░░░░░░░░░  30%
 
-2 de 7 módulos concluídos
+3 de 7 módulos concluídos
 
 ==============================================================
 
@@ -31,9 +31,9 @@ Módulos
 
 ✅ 02 - Azure Architecture
 
-🚧 03 - Azure Services
+✅ 03 - Azure Services
 
-⏳ 04 - Networking
+🚧 04 - Networking
 
 ⏳ 05 - Storage
 
