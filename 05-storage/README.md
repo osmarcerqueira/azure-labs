@@ -144,3 +144,74 @@ Combina redundância entre zonas na região primária com replicação para uma 
                                          │
                                          ▼
                                   Proteção regional
+
+Resumo para o AZ-900:
+LRS = local
+ZRS = zonas
+GRS = geográfico
+GZRS = zonas + geográfico
+
+🚚 Movimentação de arquivos
+
+O Azure disponibiliza diferentes ferramentas para movimentação de dados.
+
+AzCopy
+
+Ferramenta de linha de comando utilizada para copiar dados de e para o Azure Storage.
+
+É especialmente útil para transferências automatizadas e baseadas em scripts.
+
+Azure Storage Explorer
+
+Aplicação gráfica que permite gerenciar e trabalhar com recursos de armazenamento do Azure.
+
+É uma alternativa mais visual para administrar arquivos e outros recursos de armazenamento.
+
+Azure File Sync
+
+Permite sincronizar servidores de arquivos Windows com o Azure Files.
+
+Pode ser utilizado em ambientes híbridos, mantendo dados disponíveis localmente enquanto utiliza o Azure como camada de armazenamento.
+
+🚛 Migração de dados
+
+Durante o módulo também foram estudadas opções para migração de dados para o Azure.
+
+Azure Migrate
+
+Serviço utilizado para auxiliar na avaliação e migração de ambientes para o Azure.
+
+Azure Data Box
+
+Utilizado para transferência de grandes volumes de dados utilizando dispositivos físicos.
+
+É especialmente interessante quando transferir grandes quantidades de dados pela rede não é a opção mais adequada.
+
+🧠 O que aprendi
+
+Neste módulo aprendi que o Azure oferece diferentes formas de armazenar, proteger e movimentar dados.
+
+Os principais pontos que considero importantes para a certificação AZ-900 são:
+
+Entender a função de uma Storage Account;
+Diferenciar Blob, Files, Queue e Table Storage;
+Entender as camadas de acesso;
+Diferenciar LRS, ZRS, GRS e GZRS;
+Saber quando utilizar AzCopy;
+Conhecer o Azure Storage Explorer;
+Entender o objetivo do Azure File Sync;
+Diferenciar Azure Migrate e Azure Data Box.
+🧪 Aplicação prática
+
+Um cenário simples de arquitetura poderia ser:
+![Azure Diagrama](../assets/mermaid-diagram.png)
+
+Uma aplicação hospedada no Azure pode utilizar uma Storage Account para acessar diferentes serviços de armazenamento conforme a necessidade da aplicação.
+
+📊 Avaliação
+
+Resultado da avaliação do módulo: 100%
+
+Status: ✅ Aprovado
+XP obtido: 200 XP
+Módulo concluído: Descrever os serviços de armazenamento do Azure
