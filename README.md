@@ -17,30 +17,24 @@ diagramas e laboratórios práticos.
 
 ==============================================================
 
-Progresso
+## 📌 Progresso AZ-900
 
-████████░░░░░░░░░░░░  30%
+| Área | Status |
+|---|---|
+| ☁️ Conceitos de nuvem | ✅ Concluído |
+| 🏗️ Arquitetura do Azure | ✅ Concluído |
+| 💻 Computação | ✅ Concluído |
+| 🌐 Networking | ✅ Concluído |
+| 💾 Storage | ✅ Concluído |
+| 🔐 Segurança | ⬜ Pendente |
+| 🏛️ Governança | ⬜ Pendente |
 
-3 de 7 módulos concluídos
+### Progresso atual
 
-==============================================================
+**5/7 áreas principais concluídas**
 
-Módulos
-
-✅ 01 - Cloud Concepts
-
-✅ 02 - Azure Architecture
-
-✅ 03 - Azure Services
-
-🚧 04 - Networking
-
-⏳ 05 - Storage
-
-⏳ 06 - Security
-
-⏳ 07 - Governance
-
+```text
+████████████████████░░░░░░░░ 71%
 ==============================================================
 
 Laboratórios
