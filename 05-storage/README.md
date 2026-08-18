@@ -204,7 +204,7 @@ Diferenciar Azure Migrate e Azure Data Box.
 🧪 Aplicação prática
 
 Um cenário simples de arquitetura poderia ser:
-![Azure Diagrama](../assets/mermaid-diagram.png)
+(../assets/mermaid-diagram.png)
 
 Uma aplicação hospedada no Azure pode utilizar uma Storage Account para acessar diferentes serviços de armazenamento conforme a necessidade da aplicação.
 
