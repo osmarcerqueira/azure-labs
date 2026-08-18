@@ -25,7 +25,7 @@ Uma conta de armazenamento pode disponibilizar diferentes tipos de armazenamento
 - Queue Storage
 - Table Storage
 
-A configuração de redundância é definida na conta de armazenamento e é compartilhada pelos serviços de armazenamento associados a ela. :contentReference[oaicite:0]{index=0}
+A configuração de redundância é definida na conta de armazenamento e é compartilhada pelos serviços de armazenamento associados a ela.
 
 ---
 
@@ -87,7 +87,7 @@ A escolha da camada deve considerar principalmente a frequência de acesso e o c
 
 ## 🔄 Redundância
 
-O Azure Storage mantém múltiplas cópias dos dados para aumentar a durabilidade e protegê-los contra falhas de hardware, rede, energia e outros eventos. :contentReference[oaicite:1]{index=1}
+O Azure Storage mantém múltiplas cópias dos dados para aumentar a durabilidade e protegê-los contra falhas de hardware, rede, energia e outros eventos.
 
 ### LRS — Locally Redundant Storage
 
@@ -103,7 +103,7 @@ Mantém cópias dos dados dentro de um único datacenter na região primária.
 
 ### ZRS — Zone-Redundant Storage
 
-Replica os dados de forma síncrona entre zonas de disponibilidade na região primária. :contentReference[oaicite:2]{index=2}
+Replica os dados de forma síncrona entre zonas de disponibilidade na região primária.
 
 **Indicado quando:**
 
@@ -114,7 +114,7 @@ Replica os dados de forma síncrona entre zonas de disponibilidade na região pr
 
 ### GRS — Geo-Redundant Storage
 
-Mantém a redundância na região primária e replica os dados de forma assíncrona para uma região secundária geograficamente distante. :contentReference[oaicite:3]{index=3}
+Mantém a redundância na região primária e replica os dados de forma assíncrona para uma região secundária geograficamente distante.
 
 **Indicado para:**
 
@@ -125,7 +125,7 @@ Mantém a redundância na região primária e replica os dados de forma assíncr
 
 ### GZRS — Geo-Zone-Redundant Storage
 
-Combina redundância entre zonas na região primária com replicação para uma região secundária. :contentReference[oaicite:4]{index=4}
+Combina redundância entre zonas na região primária com replicação para uma região secundária.
 
 É uma opção para cenários que precisam combinar alta disponibilidade na região primária e proteção contra falhas regionais.
 
@@ -144,6 +144,7 @@ Combina redundância entre zonas na região primária com replicação para uma 
                                          │
                                          ▼
                                   Proteção regional
+```
 
 **Resumo para o AZ-900:**
 
@@ -152,69 +153,99 @@ Combina redundância entre zonas na região primária com replicação para uma 
 - **GRS** = geográfico
 - **GZRS** = zonas + geográfico
 
-🚚 Movimentação de arquivos
+---
+
+## 🚚 Movimentação de arquivos
 
 O Azure disponibiliza diferentes ferramentas para movimentação de dados.
 
-AzCopy
+### AzCopy
 
 Ferramenta de linha de comando utilizada para copiar dados de e para o Azure Storage.
 
 É especialmente útil para transferências automatizadas e baseadas em scripts.
 
-Azure Storage Explorer
+---
+
+### Azure Storage Explorer
 
 Aplicação gráfica que permite gerenciar e trabalhar com recursos de armazenamento do Azure.
 
 É uma alternativa mais visual para administrar arquivos e outros recursos de armazenamento.
 
-Azure File Sync
+---
+
+### Azure File Sync
 
 Permite sincronizar servidores de arquivos Windows com o Azure Files.
 
 Pode ser utilizado em ambientes híbridos, mantendo dados disponíveis localmente enquanto utiliza o Azure como camada de armazenamento.
 
-🚛 Migração de dados
+---
+
+## 🚛 Migração de dados
 
 Durante o módulo também foram estudadas opções para migração de dados para o Azure.
 
-Azure Migrate
+### Azure Migrate
 
 Serviço utilizado para auxiliar na avaliação e migração de ambientes para o Azure.
 
-Azure Data Box
+---
+
+### Azure Data Box
 
 Utilizado para transferência de grandes volumes de dados utilizando dispositivos físicos.
 
 É especialmente interessante quando transferir grandes quantidades de dados pela rede não é a opção mais adequada.
 
-🧠 O que aprendi
+---
+
+## 🧠 O que aprendi
 
 Neste módulo aprendi que o Azure oferece diferentes formas de armazenar, proteger e movimentar dados.
 
 Os principais pontos que considero importantes para a certificação AZ-900 são:
 
-Entender a função de uma Storage Account;
-Diferenciar Blob, Files, Queue e Table Storage;
-Entender as camadas de acesso;
-Diferenciar LRS, ZRS, GRS e GZRS;
-Saber quando utilizar AzCopy;
-Conhecer o Azure Storage Explorer;
-Entender o objetivo do Azure File Sync;
-Diferenciar Azure Migrate e Azure Data Box.
+- Entender a função de uma Storage Account;
+- Diferenciar Blob, Files, Queue e Table Storage;
+- Entender as camadas de acesso;
+- Diferenciar LRS, ZRS, GRS e GZRS;
+- Saber quando utilizar AzCopy;
+- Conhecer o Azure Storage Explorer;
+- Entender o objetivo do Azure File Sync;
+- Diferenciar Azure Migrate e Azure Data Box.
 
-🧪 Aplicação prática
+---
 
-Um cenário simples de arquitetura poderia ser:
+## 🧪 Aplicação prática
+
+Um cenário simples de arquitetura de armazenamento pode ser representado pela imagem abaixo:
 
 ![Azure Storage Architecture](../assets/storage-overview.png)
 
 Uma aplicação hospedada no Azure pode utilizar uma Storage Account para acessar diferentes serviços de armazenamento conforme a necessidade da aplicação.
 
-📊 Avaliação
+---
 
-Resultado da avaliação do módulo: 100%
+## 📊 Avaliação
 
-Status: ✅ Aprovado
-XP obtido: 200 XP
-Módulo concluído: Descrever os serviços de armazenamento do Azure
+**Resultado da avaliação do módulo: 100%**
+
+- **Status:** ✅ Aprovado
+- **XP obtido:** 200 XP
+- **Módulo concluído:** Descrever os serviços de armazenamento do Azure
+
+---
+
+## 📖 Documentação oficial
+
+- [Microsoft Learn — Armazenar dados no Azure](https://learn.microsoft.com/pt-br/learn/paths/store-data-in-azure/)
+- [Microsoft Learn — Azure Storage](https://learn.microsoft.com/pt-br/azure/storage/)
+- [Microsoft Learn — Redundância do Azure Storage](https://learn.microsoft.com/pt-br/azure/storage/common/storage-redundancy)
+- [Microsoft Learn — Azure Data Box](https://learn.microsoft.com/pt-br/azure/databox/)
+
+---
+> Este material faz parte do meu portfólio de estudos para a certificação **Microsoft Certified: Azure Fundamentals (AZ-900)**.
+>
+> Os conteúdos foram organizados a partir dos estudos realizados no Microsoft Learn e complementados com anotações e exemplos próprios.
