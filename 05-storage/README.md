@@ -145,11 +145,12 @@ Combina redundância entre zonas na região primária com replicação para uma 
                                          ▼
                                   Proteção regional
 
-Resumo para o AZ-900:
-LRS = local
-ZRS = zonas
-GRS = geográfico
-GZRS = zonas + geográfico
+**Resumo para o AZ-900:**
+
+- **LRS** = local
+- **ZRS** = zonas
+- **GRS** = geográfico
+- **GZRS** = zonas + geográfico
 
 🚚 Movimentação de arquivos
 
@@ -201,6 +202,7 @@ Saber quando utilizar AzCopy;
 Conhecer o Azure Storage Explorer;
 Entender o objetivo do Azure File Sync;
 Diferenciar Azure Migrate e Azure Data Box.
+
 🧪 Aplicação prática
 
 Um cenário simples de arquitetura poderia ser:
